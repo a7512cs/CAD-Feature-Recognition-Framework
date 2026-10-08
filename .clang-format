@@ -1,0 +1,10 @@
+# Matches the existing style: Allman braces, 4-space indent, right-aligned
+# pointers/references, inline getters on one line.
+BasedOnStyle: LLVM
+IndentWidth: 4
+ColumnLimit: 100
+BreakBeforeBraces: Allman
+PointerAlignment: Right
+AccessModifierOffset: -4
+AllowShortFunctionsOnASingleLine: Inline
+IncludeBlocks: Preserve
